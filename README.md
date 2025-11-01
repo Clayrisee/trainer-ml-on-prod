@@ -189,11 +189,3 @@ The project uses Loguru for comprehensive logging:
 ### Import Errors
 - Run `pip install -r requirements.txt`
 - Check Python version compatibility
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
