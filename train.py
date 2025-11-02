@@ -1,3 +1,5 @@
+# yaml
+
 import yaml
 import argparse
 from dataloader import load_pickle
@@ -7,7 +9,7 @@ from sklearn.metrics import classification_report # Evaluatino metrics
 from sklearn.ensemble import RandomForestClassifier # Model RF
 from sklearn.svm import SVC # Support Vector Machine Model
 from sklearn.linear_model import LogisticRegression # Logistic Regression
-
+from sklearn.ensemble import GradientBoostingClassifier
 # Additional package
 import neptune #pip install neptune -> Experiment TRacking
 import joblib # ngedump model
@@ -159,6 +161,7 @@ model_mapping = {
     "Logistic Regression": LogisticRegression,
     "Random Forest": RandomForestClassifier,
     "SVM": SVC,
+    "Gradient Boosting Classifier": GradientBoostingClassifier
 }
 
 # Create experiment summary
